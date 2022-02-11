@@ -1,6 +1,6 @@
 export function getQuickSortAnimations(array){
     const animations = [];
-    if (array.length <= 1) return array;
+    if (array.length <= 1) return animations;
 
     quickSortHelper(0,array.length-1,array,animations);
     //console.log(animations);
