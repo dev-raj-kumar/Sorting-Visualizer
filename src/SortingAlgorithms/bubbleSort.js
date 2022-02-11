@@ -1,6 +1,6 @@
 export function getBubbleSortAnimations(array){
     const animations = [];
-    if (array.length <= 1) return array;
+    if (array.length <= 1) return animations;
     let f = 1;let flag = true;
     for(let i=0;i<array.length;i++){
         let j; f = 0;
